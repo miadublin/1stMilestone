@@ -40,11 +40,11 @@ body, html {
 
 .scroll1  {
     background-image: url("assets/img/scroll1.jpg");
-
 }
 
+
 .scroll2  {
-    background-image: url("assets/img/scroll2.jpg");
+    background-image: url("/assets/img/scroll2.jpg");
 
 }
 
