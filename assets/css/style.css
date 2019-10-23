@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+/*---Media Queries --*/
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {}
+
+
+/*--- Carousel --*/
+
+/*--- Eu coloquei  --*/ 
+
+.textArea {
+    background-color: #64706c;
+    padding: 50px 30px;
+    font: "Montserrat", sans-serif;
+    bottom: absolute;
+
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Montserrat", sans-serif;
+    color: #9fa8a3
+
+}  
+
+.background1 {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #A6896F;
+    background-size: cover;
+    min-height: 100%;
+}
+
+.scroll1  {
+    background-image: url("/assets/img/scroll1.jpg");
+
+}
+
+.scroll2  {
+    background-image: url("/assets/img/scroll2.jpg");
+
+}
+
+.scroll3  {
+    background-image: url("/assets/img/scroll3.jpg");
+
+}
+
+.scroll4  {
+    background-image: url("/assets/img/scroll4.jpg");
+
+}
+
+.scroll1,  .scroll2, .scroll3, .scroll4 {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 70%;
+    opacity: 0.8;
+  }
+
+h3   {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Montserrat", sans-serif;
+    color: #ede9ce;
+    text-align: center;
+}
+
+  /*--- Eu coloquei  --*/ 
+
+.carousel-item {
+    transition: -webkit-transform 0.4s ease;
+    transition: transform 0.4s ease;
+    transition: transform 0.4s ease, -webkit-transform 0.2s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    opacity: 0.8;
+
+}
+
+
+
+/*--- Fixed Background Image --*/
+
+figure {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    margin: 0!important;
+}
+
+.fixed-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#fixed {
+    background-image: url("");
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+}
+
+
+/*--- Bootstrap Padding --*/
+
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
