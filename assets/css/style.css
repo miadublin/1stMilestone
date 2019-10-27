@@ -53,6 +53,11 @@ html, body {
 }
 /*--- TextArea --*/
 
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
 .textArea {
   width: 100%;
   background-color: #64706c;
