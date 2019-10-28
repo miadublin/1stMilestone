@@ -4,7 +4,7 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: "Montserrat", sans-serif;
-  color: #9fa8a3
+  color: #9fa8a3;
 }  
 
 /*--- Navigation --*/
@@ -126,9 +126,13 @@ h3   {
 
 /*--- Social Media --*/ 
 
-.social a {
-  font-size: 4.5em;
-  padding: 1rem;
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
 }
 
 .fa:hover {
@@ -137,14 +141,17 @@ h3   {
   
 .fa-facebook {
     background: #3B5998;
+    color: white;
   }
   
 .fa-youtube {
     background: #bb0000;
+    color: white;
   }
   
 .fa-instagram {
     background: #517fa4;
+    color: white;
   }
 
 /*--- Footer --*/

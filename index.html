@@ -10,9 +10,8 @@
     <!-- Favicon -->
     <link href="assets/icon/myfavicon.ico" rel="shortcut icon" type="image/x-icon">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"/>
 
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>Best Self Co.</title>
@@ -92,9 +91,6 @@
         </div>
     </div>
 
-  <!-- PRONTO -->
-
-
     <!---- Scrollable Who are we? -->
 
     <section class="textArea container-fluid">
@@ -108,10 +104,10 @@
         </p>
     </section>
 
-    <section class="scroll1">
+    <section class="scroll1 container-fluid">
     </section>
 
-    <section class="textArea">
+    <section class="textArea container-fluid">
         <h3>Learn how to Meditate</h3>
         <p> Take a deep breath and keep your mind away from distractions and problems. Learn how to exercising your inner
             world...
@@ -131,7 +127,7 @@
         </ul>
     </section>
 
-    <section class="scroll2"></section>
+    <section class="scroll2 container-fluid"></section>
 
     <!--- Videos -->
     <div class="container-fluid padding">
@@ -150,8 +146,8 @@
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-    <!--- Scrollable Self Care Tips -->
-    <section class="textArea">
+    <!--- Self Care Tips -->
+    <section class="textArea container-fluid">
         <h3>Self care tips</h3>
         <p>To help you take a break from the busy daily life here are some tips:
                 <ul>
@@ -192,37 +188,43 @@
 
     <section class="scroll3"></section>
 
-    <section class="textArea">
-        <h3>Talk to us...</h3>
+    <section class="textArea container-fluid">
         <p>Changes can happen and start within us. If anything you read here spoke with you somehow, write us using the
             form below.</p>
         <p>It will be amazing to hear from you!</p>
+        <div class="contact-clean">
+                <form method="post">
+                    <h2 class="text-center">We are listening</h2>
+                    <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name"></div>
+                    <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
+                    <div class="form-group"><textarea class="form-control" rows="14" name="message" placeholder="Message"></textarea></div>
+                    <div class="form-group"><button class="btn btn-primary" type="submit">Send</button></div>
+                </form>
+            </div>
     </section>
-    <!-- Contact form will go here-->
 
-    <div class="scroll4"></div>
+    <div section="scroll4 container-fluid"></section>
 
-    <!-- Social Media -->
+    <!-- Social Media SOMETHING WRONG HERE-->
     <div class="container-fluid padding">
         <div class="row text-center padding">
             <div class="col-12">
                 <h2>Follow a new path</h2>
             </div>
             <div class="col-12 social padding">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a>
-                <a href="#"><i class="fa fa-youtube"></i></a>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-youtube"></a>
             </div>
         </div>
     </div>
 
-    <!--- Footer -->
+    <!--- Footer ADD FORMAT -->
     <footer>
         <div class="container-fluid padding">
             <div class="row text-center">
                 <div class="col-md-4">
-                    <img src="/assets/logo/logo.png">
-                    <i class="fas fa-phone-volume"></i>
+                    <img src="assets/logo/logo.png">
                     <p>385-758 8746</p>
                     <p>bestselfco@gmail.com</p>
                 </div>
@@ -237,5 +239,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.js"></script>
 
 </body>
-
 </html>
