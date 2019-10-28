@@ -167,12 +167,17 @@ footer {
 .scroll1, .scroll2, .scroll3, .scroll4, {
   position: absolute;
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
   background-size: cover;
   background-position: center center;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
 }
 
 /*---Media Queries ADD MORE FORMATTING--*/
