@@ -123,7 +123,7 @@ h3   {
     height: 100%;
   }
   
-/*--- ARRUMAR DAQUI PRA BAIXO --*/ 
+/*--- FIX EVERYTHING UNDER HERE --*/ 
 
 /*--- Social Media --*/ 
 
@@ -193,7 +193,7 @@ footer {
 }
 
 
-/*
+/* 
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
 
