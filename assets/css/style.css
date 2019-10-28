@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
 html, body {
   height: 100%;
@@ -7,6 +10,7 @@ html, body {
   scroll-behavior: smooth;
   font-family: "Montserrat", sans-serif;
   color: #9fa8a3;
+  font-size: 1.1rem;
 }  
 
 /*--- Navigation --*/
@@ -21,6 +25,11 @@ html, body {
 
 .nav-link {
   font-size: 1.1em !important;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
 }
 
 /*--- Carousel --*/
@@ -51,7 +60,7 @@ html, body {
 
 }
 
-/*--- TextArea SCROLLABLE--*/
+/*--- TextArea PARALLAX--*/
 
 .textArea {
   width: 100%;
