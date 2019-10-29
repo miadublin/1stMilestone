@@ -49,13 +49,13 @@ html, body {
   opacity: 0.8;
 }
 
-/*--- Jumbotron ADD SPACE BETWEEN DIVS? --*/
+/*--- Jumbotron --*/
 
 .gif {
   width: 100%;
 }
 
-/*--- TextArea PARALLAX--*/
+/*--- TextArea PARALLAX --*/
 
 .textArea {
   width: 100%;
@@ -73,6 +73,8 @@ html, body {
   background-size: cover;
   min-height: 100%;
 }
+
+/*--- Parallax Images --*/
 
 .scroll1  {
   background-image: url(../img/scroll1.jpg);
@@ -103,6 +105,8 @@ html, body {
   width: 100%;
   height: 100%;
 }
+
+/*--- Parallax Header --*/
 
 h3   {
   letter-spacing: 5px;
