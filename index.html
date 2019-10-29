@@ -14,32 +14,39 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>Best Self Co.</title>
+
+    <!-- JS for the Nav Bar to collapse after is clicked on -->
+    <script>
+        $('.navbar-nav>li>a').on('click', function () {
+            $('.navbar-collapse').collapse('hide');
+        });
+    </script>
 </head>
 
 <body>
 
     <!-- Nav Bar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid"> <a class="navbar-logo" href="index.html"><img src="assets/logo/logo.png"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="nav navbar-collapse collapse" id="navbarResponsive">
+            <div class="navbar-collapse collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#top" data-toggle="collapse" data-target=".navbar-collapse.show">Home</a>
+                        <a class="nav-link" href="#top">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#learn" data-toggle="collapse" data-target=".navbar-collapse.show">Learn how to Meditate</a>
+                        <a class="nav-link" href="#learn">Learn how to Meditate</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#videos" data-toggle="collapse" data-target=".navbar-collapse.show">Videos</a>
+                        <a class="nav-link" href="#videos">Videos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#tips" data-toggle="collapse" data-target=".navbar-collapse.show">Self Care Tips</a>
+                        <a class="nav-link" href="#tips">Self Care Tips</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact" data-toggle="collapse" data-target=".navbar-collapse.show">Talk to us...</a>
+                        <a class="nav-link" href="#contact">Talk to us...</a>
                     </li>
                 </ul>
             </div>

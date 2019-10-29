@@ -122,7 +122,7 @@ h3   {
 .iframe {
   display: inline-block;
   padding: 2px;
-  margin-bottom;: 10px;
+  margin-bottom: 10px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -190,4 +190,5 @@ footer {
 
 [class*="col-"] {
     padding: 1rem;
+}
 }
