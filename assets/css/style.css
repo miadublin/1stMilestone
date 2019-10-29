@@ -56,7 +56,7 @@ html, body {
   padding: 10px;
 }
 
-/*--- TextArea PARALLAX --*/
+/*--- TextArea Parallax --*/
 
 .textArea {
   width: 100%;
@@ -131,33 +131,6 @@ h3   {
 
 /*--- Social Media --*/ 
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-}
-
-.fa:hover {
-      opacity: 0.7;
-  }
-  
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-  
-.fa-youtube {
-    background: #bb0000;
-    color: white;
-  }
-  
-.fa-instagram {
-    background: #517fa4;
-    color: white;
-  }
 
 /*--- Contact Form --*/
   .btn-colour-1 {
@@ -218,21 +191,3 @@ footer {
 [class*="col-"] {
     padding: 1rem;
 }
-
-
-/* 
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-*/

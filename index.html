@@ -14,6 +14,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>Best Self Co.</title>
+
+    <!--- Auto close Navbar when click on link -->
+    <script>
+        $('.navbar-collapse a').click(function () {
+            $(".navbar-collapse").collapse('hide');
+        });
+    </script>
+
 </head>
 
 <body>
@@ -273,7 +281,8 @@
 
     <a id="contact"></a>
     <section class="textArea container-fluid">
-        <p>Changes can happen and start within us. If anything you read here spoke with you somehow, write us using the
+        <p>Changes can happen and start within us.</p>
+        <p>If anything you read here spoke with you somehow, write us using the
             form below.</p>
         <p>It will be amazing to hear from you!</p>
         <div class="contact-clean">
@@ -281,22 +290,23 @@
                 <h2 class="text-center">We are listening</h2>
                 <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name"></div>
                 <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
-                <div class="form-group"><textarea class="form-control" rows="3" name="message" placeholder="Message"></textarea></div>
+                <div class="form-group"><textarea class="form-control" rows="3" name="message"
+                        placeholder="Message"></textarea></div>
                 <p><a href="#" class="btn btn-colour-1">Send</a></p>
             </form>
         </div>
     </section>
-    
+
     <!--- Parallax Image 4 -->
     <section class="scroll4 container-fluid"></section>
 
-    <!-- Social Media MAKE ONE! -->
+    <!-- Social Media MAKE IT! -->
     <div class="container-fluid padding">
         <div class="row text-center padding">
             <div class="col-md-12">
                 <h2>Follow a new path</h2>
             </div>
-           
+
         </div>
     </div>
 
