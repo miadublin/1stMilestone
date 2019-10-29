@@ -186,7 +186,7 @@ h3   {
   width: 100%;
   height: 110px; 
   background-position: center;
-  background-image: url("/assets/logo/footerlogo.png");
+  background-image: url("../logo/footerlogo.png");
   background-repeat: no-repeat;
   
 }
