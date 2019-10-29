@@ -149,6 +149,37 @@ h3   {
   /*--- FIX EVERYTHING UNDER HERE --*/ 
 
 /*--- Social Media --*/ 
+ 
+.social {
+  text-align :center;
+  padding :20px 0;
+  }
+ 
+ .social a{
+  display:inline-flex;
+  width:40px;
+  height:40px;
+  background:#8C4830;
+  color:white;
+  margin:0 6px;
+  border-radius:50%;
+  justify-content:center;
+  align-items:center;
+  transition:0.4s;
+  font-size:22px;
+ }
+ 
+ .social a:hover{
+  background:#D9AB9A;
+ }
+ 
+ .social a i{
+  transition:0.2s all;
+ }
+ 
+ .social a:hover > i{
+  transform:scale(1.2) rotate(25deg);
+ }
 
 /*--- Footer --*/
 
