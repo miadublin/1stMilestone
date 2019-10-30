@@ -123,14 +123,17 @@ h3 {
 
 .btn-colour-1 {
   color: #fff;
-  background-color: #8C4830;
-  letter-spacing: 0.05em;
+  background-color: #B6BF7F;
+  letter-spacing: 0.5em;
   border-radius: 40px;
+  padding-top: 20px;
+  font-weight: 20px;
+  text-align: center;
 }
 
 .btn-colour-1:hover, .btn-colour-1:active, .btn-colour-1:focus, .btn-colour-1.active {
   /* Darkens a bit for hover effect */
-  background: #59332A;
+  background: #d9ab99;
   color: #ffffff;
 }
 
