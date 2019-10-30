@@ -17,18 +17,19 @@
 </head>
 
 <body>
-
+    
     <!-- Nav Bar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid"> <a class="navbar-logo" href="index.html"><img src="assets/logo/logo.png"
-                    alt="logo"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+    <nav class="navbar navbar-toggleable-md navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-logo" href="index.html"><img src="assets/logo/logo.png" alt="logo"></a>
+            <button id="nav-btn" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarDiv" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="navbar-collapse collapse" id="navbarResponsive">
+            <div class="collapse navbar-collapse " id="navbarDiv">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#top">Home</a>
+                        <a class="nav-link" href="#top">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#learn">Learn how to Meditate</a>
@@ -40,7 +41,7 @@
                         <a class="nav-link" href="#tips">Self Care Tips</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Talk to us...</a>
+                        <a class="nav-link" href="#contact">Talk to us</a>
                     </li>
                 </ul>
             </div>
@@ -170,31 +171,27 @@
 
     <div class="iframe-container">
         <span class="iframe"></span>
-            <iframe width="290" height="290" src="https://www.youtube.com/embed/inpok4MKVLM" frameborder="0" 
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-         </div>
+        <iframe width="290" height="290" src="https://www.youtube.com/embed/inpok4MKVLM" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
     <div class="iframe-container">
         <span class="iframe"> </span>
-            <iframe width="290" height="290" src="https://www.youtube.com/embed/EwQkfoKxRvo" 
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
+        <iframe width="290" height="290" src="https://www.youtube.com/embed/EwQkfoKxRvo"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
     <div class="iframe-container">
         <span class="iframe"> </span>
-            <iframe width="290" height="290" src="https://www.youtube.com/embed/c1Ndym-IsQg" 
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
+        <iframe width="290" height="290" src="https://www.youtube.com/embed/c1Ndym-IsQg"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
     <div class="iframe-container">
         <span class="iframe"></span>
-            <iframe width="290" height="290" src="https://www.youtube.com/embed/Bk_qU7l-fcU" 
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-         </div>
+        <iframe width="290" height="290" src="https://www.youtube.com/embed/Bk_qU7l-fcU"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
     <!--- Self Care Tips -->
     <a id="tips"></a>
@@ -308,5 +305,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.js"></script>
 
 </body>
-
+    <script src="assets/js/script.js"></script>
 </html>
