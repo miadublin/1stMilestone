@@ -1,12 +1,11 @@
-# Simple meditation for beginners - [Best Self Co.](https://miadublin.github.io/1stmilestone)
-
 <p align="center">
-  <img width="460" height="300" src="https://user-images.githubusercontent.com/54308513/67994830-41e24d80-fc3f-11e9-984c-2ab797c86fec.png">
+  <b>Meditation Website for Beginners</b><br>
+  <a href="https://miadublin.github.io/1stmilestone">Best Self Co.</a> |
+  <br><br>
+  <img src="https://user-images.githubusercontent.com/54308513/67994830-41e24d80-fc3f-11e9-984c-2ab797c86fec.png">
 </p>
 
-
-This website is beginners introduction to meditation, showing that Meditation is very simple and that anyone is able to start practicing it today.
-Includes video tutorials and step by step guidance.
+This website is a introduction to meditation for beginners, showing that Meditation is very simple and that anyone is able to start practicing it today. Allowing the users to mediate on our website by providing them with a complete guide about it. 
 
 ## UX
  
@@ -22,36 +21,39 @@ Users of the website are people in need to unwind and looking for an easy way to
 
 ## Wireframes
 
-The Wireframes can be viewed [here](https://github.com/miadublin/1stmilestone/tree/master/wireframes)
+The Wireframes can be viewed [here](https://github.com/miadublin/1stmilestone/tree/master/wireframes).
 
 ## Features
 
-- The code and content of this website is contained within one document (index.html), it utilises a parallax design.
+- The code and content of this website is contained on a single page (index.html), also it utilises a parallax design making it easy to navigate and find what you are lookign for.
 
-- Responsive Navbar: Allows the user to easily navigate to the different sections of the website,  simply by clicking the name of the area they wish to visit also the navbar collapses when clicked on so the page is still visible all the time.
+- Responsive Navbar: Allows the user to easily navigate to the different sections of the website, simply by clicking the name of the area they wish to visit also the navbar collapses when clicked on so the page is still visible all the time.
 		
-- Carousel slides: 
+- Carousel slide with pictures, making it clean and modern. 
 
-- Contact form: Allow the user to get in touch with the site creator.
+- Contact form: A clear and easy to use contact form, allowing the user to get in touch with the site creator and 
+social media buttons displayed on the fooer to allow the user a quick and easy access to our social network pages.
 
 - Footer: Informs the user every social media link and phone number/email available for contact.
 
+- Information on how to start to Meditate and providing these sessions of different lengths like 3 and 5 minutes and also a kid friendly guide.
 
+- Includes videos tutorials hosted on YouTube and step by step guidance.
 
+- Bullet list of Self care Tips and exercises, that allow users to learn techniques that will help them in getting more relaxed, manage their stress and even fight insomnia.
 
-### Existing Features
-- 
+- And the best thing is: it's FREE, won’t cost you 1 cent. 💸 
 
 ### Features Left to Implement
-- 
+- I would like to provide e-books links for the users and always keep the sections updated with fresh content.
 
 ## List of pages
-
 - Home Page - Give users a calm and peaceful feeling with beautiful pictures
 - Learn how to Meditate - Step by step of how Meditate
 - Videos - Tutorials for user who wish start to Meditate
 - Self care Tips - Extense list of ways to treat yourself
 - Talk to us - Contact form
+
 ## Technologies Used
 
 - [HTML](https://en.wikipedia.org/wiki/HTML)
@@ -97,24 +99,25 @@ I used [Am I Responsive](http://ami.responsivedesign.is/) to check the responsiv
 
 ## Deployment 🚀
 
-This project is hosted on [Github](https://github.com/miadublin/1stmilestone)
+# I did this to deploy this website:
 
 - Created a GitHub repository for the website
 - I clicked in 'Settings' at the repository
 - In Settings, looked for the Source section 
 - From the dropdown menu, selected master branch and then clicked Save
 
-Simply as that, now the repository can be found [here](https://github.com/miadublin/1stmilestone)
+Simply as that, it can be found [here](https://miadublin.github.io/1stmilestone/) and the repository can be found [here](https://github.com/miadublin/1stmilestone) 
 
-- Open GitHub
-- Install Git on terminal
+
+# To clone or download this website, you'll need:
+- Open GitHub 
+- Install [Git](https://git-scm.com/download/win) on your terminal
 - Access this [repository](https://github.com/miadublin/1stmilestone)
-	•	- Click 'Clone or Download' and copy the link
-	•	- Open [VSCode](https://code.visualstudio.com/) 
-	•	- Command Palette - Type Git Clone
-	•	- Paste the code from Github repository
-	◦	git clone https://github.com/miadublin/1stmilestone.git
-- That’s it!
+	- Click 'Clone or Download' and copy the link
+	- Open [VSCode](https://code.visualstudio.com/) 
+    - Command Palette - Type Git Clone
+    - Paste [this](https://github.com/miadublin/1stmilestone.git) code from Github 
+    - That’s it! Now you have this repository on your machine
 
 ### Credits
 
@@ -127,7 +130,7 @@ from StackOverflow https://stackoverflow.com/questions/42401606/how-to-hide-coll
 
 ## Media
 
-### The colour scheme consists of earthy tones: 
+### The colour scheme consists of natural earthy tones: 
 
 - ![#8B452A](https://placehold.it/15/8B452A/000000?text=+) `#8B452A`
 - ![#D9AB99](https://placehold.it/15/D9AB99/000000?text=+) `#D9AB99`

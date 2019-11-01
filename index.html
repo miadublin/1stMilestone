@@ -6,9 +6,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <meta name=" theme-color" content="#D9AB9A">
 
     <!-- Favicon -->
-    <link href="assets/icon/myfavicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="assets/img/myfavicon.ico" rel="shortcut icon" type="image/x-icon">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.css" />
@@ -31,18 +32,10 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="#top">Home<span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#learn">Learn how to Meditate</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#videos">Videos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#tips">Self Care Tips</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Talk to us</a>
-                </li>
+                <li class="nav-item"><a class="nav-link" href="#learn">Learn how to Meditate</a></li>
+                <li class="nav-item"><a class="nav-link" href="#videos">Videos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#tips">Self Care Tips</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Talk to us</a></li>
             </ul>
         </div>
     </nav>
@@ -50,28 +43,29 @@
     <!--- Carousel -->
     <div id="slides" class="carousel slide" data-ride="carousel">
         <ul class="carousel-indicators">
-            <li data-target="#slides" datas-slide-to="0" class="active"></li>
-            <li data-target="#slides" datas-slide-to="1"></li>
-            <li data-target="#slides" datas-slide-to="2"></li>
-            <li data-target="#slides" datas-slide-to="3"></li>
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+            <li data-target="#slides" data-slide-to="3"></li>
         </ul>
         <div class="carousel-inner">
             <div class="carousel-item active img-fluid">
-                <img src="assets/img/background1.jpg" alt="background1">
+                <img src="assets/img/peace.jpg" alt="peace">
             </div>
             <div class="carousel-item img-fluid">
-                <img src="assets/img/background2.jpg" alt="background2">
+                <img src="assets/img/girlsmilling.jpg" alt="girlsmilling">
             </div>
             <div class="carousel-item img-fluid">
-                <img src="assets/img/background3.jpg" alt="background3">
+                <img src="assets/img/holdingpup.jpg" alt="holdingpup">
             </div>
             <div class="carousel-item img-fluid">
-                <img src="assets/img/background4.jpg" alt="background4">
+                <img src="assets/img/couple.jpg" alt="couple">
             </div>
         </div>
     </div>
 
     <!--- Parallax Start -->
+    <section id="home"></section>
     <section class="textArea container-fluid">
         <h3>How do you take care of yourself?</h3>
         <p>Before a friend shows up you at our house, we usually make sure everything is tidy and stock up on
@@ -109,6 +103,7 @@
     <section class="scroll1 container-fluid"></section>
 
     <!--- Learn how to Meditate -->
+    <section id="learn"></section>
     <section class="textArea container-fluid">
         <h3>Learn how to Meditate</h3>
         <p> In Western culture, as children we learn a lot about geography, physics, history, math, biology,
@@ -157,89 +152,112 @@
     <section class="scroll2 container-fluid"></section>
 
     <!--- Videos -->
+    <section id="videos"></section>
     <div class="container-fluid padding">
-        <div class="row welcome text-center">
+        <div class="welcome text-center">
             <div class="col-12">
-                <h1 class="display-3">Videos</h1>
+                <h1 class="display-3">Videos<i class="fas fa-play-circle"></i></h1>
             </div>
         </div>
     </div>
-    <div class="videoWrapper">
-        <iframe width="460" height="320" src="https://www.youtube.com/embed/EwQkfoKxRvo" frameborder="0"
-            allowfullscreen title="guided meditation"></iframe></div>
-    <div class="videoWrapper">
-        <iframe width="460" height="320" src="https://www.youtube.com/embed/Bk_qU7l-fcU" frameborder="0"
-            allowfullscreen title="meditation for kids"></iframe></div>
-    <div class="videoWrapper">
-        <iframe width="460" height="320" src="https://www.youtube.com/embed/c1Ndym-IsQg" frameborder="0"
-            allowfullscreen title="mini meditation"></iframe></div>
-    <div class="videoWrapper">
-        <iframe width="460" height="320" src="https://www.youtube.com/embed/inpok4MKVLM" frameborder="0"
-            allowfullscreentitle="5 minutes meditation"></iframe>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>Guided</h2>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="460" height="320" src="https://www.youtube.com/embed/EwQkfoKxRvo" frameborder="0"
+                        allowfullscreen title="guided meditation"></iframe>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h2>For Kids</h2>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="460" height="320" src="https://www.youtube.com/embed/Bk_qU7l-fcU" frameborder="0"
+                        allowfullscreen title="meditation for kids"></iframe>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h2>5 minutes</h2>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="460" height="320" src="https://www.youtube.com/embed/inpok4MKVLM" frameborder="0"
+                        allowfullscreen title="5 minutes meditation"></iframe>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h2>Mini</h2>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="460" height="320" src="https://www.youtube.com/embed/c1Ndym-IsQg" frameborder="0"
+                        allowfullscreen title="mini meditation"></iframe>
+                </div>
+            </div>
+        </div>
     </div>
-
     <!--- Self Care Tips -->
+    <section id="tips"></section>
     <section class="textArea container-fluid">
         <h3>Self care tips</h3>
         <ul>
-            <li>Drink a big glass of water;</li>
-            <li>Streeeeetch!;</li>
-            <li>Neatly set the table, using the “party” dinnerware for a weekday dinner;</li>
-            <li>Go throught your wardrobe and get rid of things you don't like or use anymore;</li>
+            <li>Drink a big glass of water</li>
+            <li>Streeeeetch!</li>
+            <li>Neatly set the table, using the “party” dinnerware for a weekday dinner</li>
+            <li>Declutter! Go throught your things and get rid of something that you don't like or use anymore
+            </li>
             <li>Imagine you’re your best friend. If you were, what would you tell yourself right now?</li>
-            <li>Make a list of the things that inspire you and you like to do;</li>
+            <li>Make a list of the things that inspire you and you like to do</li>
             <li>Write a journal, cultivating a little time to pay attention to your emotions and thoughts,
-                putting them on paper;</li>
-            <li>Get outside. No matter how busy you are, make it a habit to step outside for a breath of fresh air each
+                putting them on paper</li>
+            <li>Get outside. No matter how busy you are, make it a habit to step outside for a breath of fresh
+                air each
                 daily</li>
-            <li>Doodle or color; As the creative mind ‘plays,’ feel-good neurochemicals such as serotonin activate
+            <li>Doodle or color; As the creative mind ‘plays,’ feel-good neurochemicals such as serotonin
+                activate
                 positive feelings of wellness and serenity</li>
-            <li>Give yourself a sincere smile in the mirror and say, “It's okay. I'm here with you";</li>
-            <li>Keep a gratitude journal to remind you of so many good things in your life;</li>
-            <li>Breathe deeply for a few moments;</li>
-            <li>Read that book that has been on the shelf for a long time waiting for you;</li>
-            <li>Play your favorite songs and dance;</li>
-            <li>Take a bath with that scented soap you never buy because it's a little more expensive;</li>
-            <li>Watch that movie you love and know the lines by heart;</li>
-            <li>Trade your coffee for a soothing cup of tea;</li>
+            <li>Give yourself a sincere smile in the mirror and say, “It's okay. I'm here with you"</li>
+            <li>Keep a gratitude journal to remind you of so many good things in your life</li>
+            <li>Breathe deeply for a few moments</li>
+            <li>Read that book that has been on the shelf for a long time waiting for you</li>
+            <li>Play your favorite songs and dance</li>
+            <li>Take a bath with that scented soap you never buy because it's a little more expensive</li>
+            <li>Watch that movie you love and know the lines by heart</li>
+            <li>Trade your coffee for a soothing cup of tea</li>
             <li>Change the bedding and feel the pleasure of lying in a clean and fragrant duvet;</li>
-            <li>Respect your sleep;</li>
-            <li>Have a peaceful and healthy breakfast;</li>
-            <li>Put on a face mask;</li>
-            <li>Say "no." Most often, stress is caused by having too much to do and too little time to do it;</li>
+            <li>Respect your sleep</li>
+            <li>Have a peaceful and healthy breakfast</li>
+            <li>Put on a face mask</li>
+            <li>Say "no." Most often, stress is caused by having too much to do and too little time to do it
+            </li>
             <li>Go cloud-watching! Lie on your back, relax and watch the sky</li>
-            <li>Create a morning ritual to start your day in the best energy possible;</li>
-            <li>Start therapy to seek more self-awareness and invest in your emotional health;</li>
-            <li>Eat some ice cream;</li>
-            <li>Go to the movies and enjoy your own company;</li>
-            <li>Eat your favorite meal;</li>
-            <li>Learn something new;</li>
+            <li>Create a morning ritual to start your day in the best energy possible</li>
+            <li>Start therapy to seek more self-awareness and invest in your emotional health</li>
+            <li>Eat some ice cream</li>
+            <li>Go to the movies and enjoy your own company</li>
+            <li>Eat your favorite meal</li>
+            <li>Learn something new</li>
             <li>Get an office plant, a living room plant, a bathroom plant, create your own urban jungle!</li>
-            <li>Revisit (or discover) a hobby;</li>
-            <li>Schedule your exams and routine medical appointments;</li>
+            <li>Revisit (or discover) a hobby</li>
+            <li>Schedule your exams and routine medical appointments</li>
         </ul>
-        <h3>Rebuild the bond with yourself! Which one will you try first? </h3>
+        <h3>Rebuild the bond with yourself... Which one will you try first?</h3>
     </section>
 
     <!--- Parallax Image 3 -->
     <section class="scroll3 container-fluid"></section>
 
     <!--- Contact Form -->
+    <section id="contact"></section>
     <section class="textArea container-fluid">
-        <p>If anything you read here spoke with you somehow, please write us using the
-            form below</p>
+        <h3>If anything you read here spoke with you somehow, please write us using the
+            form below. We are listening <i class="far fa-heart"></i></h3>
         <div class="contact-clean">
-                <h2 class="text-center">We are listening</h2>
-                <div class="form-group"><input class="form-control" data-error-msg="Must enter your name?" required
-                        type="text" name="name" placeholder="Name">
-                </div>
-                <div class="form-group"><input class="form-control"
-                        data-error-msg="The email is required in valid format!" required type="email" name="email"
-                        placeholder="Email">
-                </div>
-                <div class="form-group"><textarea class="form-control" rows="3" name="message"
-                        placeholder="It will be amazing to hear from you!"></textarea></div>
-                <button type="submit" class="btn btn-colour-1">Send</button>
+            <div class="form-group"><input class="form-control" data-error-msg="Must enter your name?" required
+                    type="text" name="name" aria-label="type your name" placeholder="Name">
+            </div>
+            <div class="form-group"><input class="form-control" data-error-msg="The email is required in valid format!"
+                    required type="email" name="email" aria-label="type your email" placeholder="Email">
+            </div>
+            <div class="form-group"><textarea class="form-control" rows="3" name="message"
+                    aria-label="type your message" placeholder="It will be amazing to hear from you!"></textarea></div>
+            <button type="submit" class="btn btn-colour-1">Send</button>
             </form>
         </div>
     </section>
@@ -251,16 +269,20 @@
     <div class="container-fluid padding">
         <div class="row text-center padding">
             <div class="col-md-12">
-                <h2 class="display-4">Follow a new path</h2>
+                <h4 class="display-4">Follow a new path</h4>
                 <div class="social">
-                    <a href="https://www.facebook.com/" rel="noopener" target="_blank"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a href="https://twitter.com/" rel="noopener" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.youtube.com/" rel="noopener" target="_blank"><i class="fab fa-youtube"></i></a>
-                    <a href="https://www.instagram.com/" rel="noopener" target="_blank"><i
-                            class="fab fa-instagram"></i></a>
-                    <a href="mailto:someone@yoursite.com" rel="noopener" target="_blank"><i class="fas fa-at"></i></a>
-                    <a href="tel:+353012345678" rel="noopener" target="_blank"><i class="fas fa-phone-alt"></i></a>
+                    <a href="https://www.facebook.com/" aria-label="Read more about us on Facebook" rel="noopener"
+                        target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/" aria-label="Keep up with our news on Twitter" rel="noopener"
+                        target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/" aria-label="Watch our new videos on YouTube" rel="noopener"
+                        target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/" aria-label="Like our pictures on Instagram" rel="noopener"
+                        target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="mailto:someone@yoursite.com" aria-label="Send us a e-mail" rel="noopener"
+                        target="_blank"><i class="fas fa-at"></i></a>
+                    <a href="tel:+353012345678" aria-label="Call us on our contact number" rel="noopener"
+                        target="_blank"><i class="fas fa-phone-alt"></i></a>
                 </div>
             </div>
         </div>

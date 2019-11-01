@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Maven+Pro&display=swap');
-
 html, body {
   height: 100%;
   width: 100%;
@@ -50,12 +49,12 @@ html, body {
 .textArea {
   width: 100%;
   background-color: #64706c;
-  color: #f1efe9;
+  color: #ede9ce;
   font-family: 'Maven Pro', sans-serif;
   padding: 50px;
 }
 
-.background1 {
+.peace {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -66,19 +65,19 @@ html, body {
 /* Parallax Images */
 
 .scroll1 {
-  background-image: url(../img/scroll1.jpg);
+  background-image: url(../img/concentration.jpg);
 }
 
 .scroll2 {
-  background-image: url(../img/scroll2.jpg);
+  background-image: url(../img/flowers.jpg);
 }
 
 .scroll3 {
-  background-image: url(../img/scroll3.jpg);
+  background-image: url(../img/windown.jpg);
 }
 
 .scroll4 {
-  background-image: url(../img/scroll4.jpg);
+  background-image: url(../img/bowl.jpg);
 }
 
 .scroll1, .scroll2, .scroll3, .scroll4 {
@@ -97,29 +96,28 @@ h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
   font: 25px 'Maven Pro', sans-serif;
-  color: #D9AB9A;
+  color: #d6ecfa;
   text-align: center;
 }
 
 /* Videos */
 
-/* I copied .videoWrapper snip from CSS-Tricks */
-
-.videoWrapper {
-  position: relative;
-  padding-bottom: 56.25%;
-  /* 16:9 */
-  padding-top: 25px;
-  height: 0;
+.container {
+  background: #ffffff;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
 }
 
-.videoWrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 80%;
-  padding: 10px;
+h2 {
+  color: #8C4830;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h1 i {
+  color: #64706c;
+  font-size: 70px;
+  width: 100px;
 }
 
 /* Contact Form */
@@ -127,7 +125,6 @@ h3 {
 .btn-colour-1 {
   color: #fff;
   background-color: #B6BF7F;
-  letter-spacing: 0.5em;
   border-radius: 40px;
   padding-top: 10px;
   text-align: center;
@@ -148,6 +145,7 @@ h3 {
 
 .social a {
   display: inline-flex;
+  /* If I don't overwrite Boostrap and remove inline-flex the circles crump together */
   width: 40px;
   height: 40px;
   background: #8C4830;
@@ -180,7 +178,7 @@ h3 {
   width: 100%;
   height: 110px;
   background-position: center;
-  background-image: url("../img/footerlogo.png");
+  background-image: url("../img/logofooter.png");
   background-repeat: no-repeat;
 }
 
@@ -191,7 +189,7 @@ h3 {
   color: #D9AB9A;
 }
 
-/* Media Queries ADD MORE FORMATTING? */
+/* Media Queries */
 
 @media (min-width: 320px) {
   .social a {
@@ -209,23 +207,18 @@ h3 {
     display: table;
     margin: 0 auto;
   }
-
-@media (min-width: 768px) {
-  .social a {
-    font-size: 24px;
-    padding: 20px;
+  @media (min-width: 768px) {
+    .social a {
+      font-size: 24px;
+      padding: 20px;
+    }
   }
-}
-
-@media (min-width: 992px) {
-  .social a {
-    font-size: 32px;
-    padding: 28px;
+  @media (min-width: 992px) {
+    .social a {
+      font-size: 32px;
+      padding: 28px;
+    }
   }
-}
-
-
-
   /* Bootstrap Padding */
   [class*="col-"] {
     padding: 2px;
