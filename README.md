@@ -1,10 +1,11 @@
 # Simple meditation for beginners - [Best Self Co.](https://miadublin.github.io/1stmilestone)
 
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/54308513/67994830-41e24d80-fc3f-11e9-984c-2ab797c86fec.png">
+</p>
 
-![banner](https://user-images.githubusercontent.com/54308513/67994830-41e24d80-fc3f-11e9-984c-2ab797c86fec.png)
 
-
-This website is good introduction to meditation, showing that Meditation is very simple and that anyone is able to start practicing it today.
+This website is beginners introduction to meditation, showing that Meditation is very simple and that anyone is able to start practicing it today.
 Includes video tutorials and step by step guidance.
 
 ## UX
@@ -27,7 +28,7 @@ The Wireframes can be viewed [here](https://github.com/miadublin/1stmilestone/tr
 
 - The code and content of this website is contained within one document (index.html), it utilises a parallax design.
 
-- Navbar: Allows the user to easily navigate to the different sections of the website,  simply by clicking the name of the area they wish to visit also the navbar collapses when clicked on so the page is still visible all the time.
+- Responsive Navbar: Allows the user to easily navigate to the different sections of the website,  simply by clicking the name of the area they wish to visit also the navbar collapses when clicked on so the page is still visible all the time.
 		
 - Carousel slides: 
 
@@ -63,8 +64,10 @@ The Wireframes can be viewed [here](https://github.com/miadublin/1stmilestone/tr
     - The project was built using **VSCode** as a code editor.
 - [JavaScript](https://www.javascript.com)
     - The project uses **JavaScript** used to be able to use the effect (click/close) in the navigation bar.
-- [JQuery](https://jquery.com)
+- [jQuery](https://jquery.com)
     - The project uses **JQuery** to make easier to use JavaScript.
+- [PopperJS](https://popper.js.org)
+    - The project uses **PopperJS** to calculate the position of an element to make it possible to position it near a given reference element.
 - [Git](https://git-scm.com)
     - The project uses **Git** for Version Control.
 - [Font Awesome](https://fontawesome.com)
@@ -75,10 +78,10 @@ The Wireframes can be viewed [here](https://github.com/miadublin/1stmilestone/tr
     - The project uses **Am I Responsive** to check how responsive design looks across different browsers and devices.
 
 # Aditional resouces and tools:
-- https://www.w3schools.com/
-- https://stackoverflow.com/
-- https://css-tricks.com/
-- https://github.com/
+- [W3 Schools](https://www.w3schools.com/)
+- [Stackoverflow](https://stackoverflow.com/)
+- [CSS-Tricks](https://css-tricks.com/)
+- [GitHub](https://github.com/)
    
 ## Testing
 
@@ -115,6 +118,10 @@ Simply as that, now the repository can be found [here](https://github.com/miadub
 
 ### Credits
 
+- After looking for ways to get the nav bar to collpase after a click with Boostrap i found and used this snippet 
+from StackOverflow https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-4-navbar-on-click
+
+
 ## Content
 - All text is my own and original.
 
@@ -136,10 +143,8 @@ Simply as that, now the repository can be found [here](https://github.com/miadub
 
 ### Acknowledgements
 
-- Thanks specially to Alan Maher for his feedback and overall great help.
+- Thanks specially to ```[Alan Maher] (https://github.com/Scorptech)```[ for his feedback and overall great help.
+- Thanks to ```[Anthony O' Brien] (https://github.com/auxfuse)``` for teaching me about Media Queries on his call and feedback.
+- Thanks to ```[Simen Daehlin - Eventyret_mentor] (https://www.github.com/Eventyret)``` for his feedback and overall help during the process.
 - I received inspiration for this project from my mother that  is a ray of sunshine and thanks Meditation for it.
 
-### Contribute!
-
-- Step 1 🍴 Fork this repo!
-- Step 2 👯 Clone this repo to your local machine clicking [here](https://github.com/miadublin/1stmilestone.git)
