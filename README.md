@@ -21,11 +21,17 @@ Users of the website are people in need to unwind and looking for an easy way to
 
 ## Wireframes
 
-[Wireframes](https://github.com/miadublin/1stmilestone/tree/master/wireframes)
+The Wireframes can be viewed [here](https://github.com/miadublin/1stmilestone/tree/master/wireframes)
 
 ## Features
 
-The code and content of this website is contained within one document (index.html), it utilises a parallax design.
+- The code and content of this website is contained within one document (index.html), it utilises a parallax design.
+
+- Navbar: Allows the user to easily navigate to the different sections of the website,  simply by clicking the name of the area they wish to visit also the navbar collapses when clicked on so the page is still visible all the time.
+		
+- Carousel slides: 
+		
+- Footer: Informs the user every social media link and phone number/email available for contact.
 
 
 ### Existing Features
@@ -84,16 +90,22 @@ I used [Am I Responsive](http://ami.responsivedesign.is/) to check the responsiv
 
 This project is hosted on [Github](https://github.com/miadublin/1stmilestone)
 
+- Created a GitHub repository for the website
+- I clicked in 'Settings' at the repository
+- In Settings, looked for the Source section 
+- From the dropdown menu, selected master branch and then clicked Save
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+Simply as that, now the repository can be found [here](https://github.com/miadublin/1stmilestone)
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+- Open GitHub
+- Install Git on terminal
+- Access this [repository](https://github.com/miadublin/1stmilestone)
+	•	- Click 'Clone or Download' and copy the link
+	•	- Open [VSCode](https://code.visualstudio.com/) 
+	•	- Command Palette - Type Git Clone
+	•	- Paste the code from Github repository
+	◦	git clone https://github.com/miadublin/1stmilestone.git
+- That’s it!
 
 ### Credits
 
