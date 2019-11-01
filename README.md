@@ -30,21 +30,27 @@ The Wireframes can be viewed [here](https://github.com/miadublin/1stmilestone/tr
 - Navbar: Allows the user to easily navigate to the different sections of the website,  simply by clicking the name of the area they wish to visit also the navbar collapses when clicked on so the page is still visible all the time.
 		
 - Carousel slides: 
-		
+
+- Contact form: Allow the user to get in touch with the site creator.
+
 - Footer: Informs the user every social media link and phone number/email available for contact.
 
 
+
+
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- 
 
 ### Features Left to Implement
-- Another feature idea
+- 
 
+## List of pages
+
+- Home Page - Give users a calm and peaceful feeling with beautiful pictures
+- Learn how to Meditate - Step by step of how Meditate
+- Videos - Tutorials for user who wish start to Meditate
+- Self care Tips - Extense list of ways to treat yourself
+- Talk to us - Contact form
 ## Technologies Used
 
 - [HTML](https://en.wikipedia.org/wiki/HTML)
@@ -132,3 +138,8 @@ Simply as that, now the repository can be found [here](https://github.com/miadub
 
 - Thanks specially to Alan Maher for his feedback and overall great help.
 - I received inspiration for this project from my mother that  is a ray of sunshine and thanks Meditation for it.
+
+### Contribute!
+
+- Step 1 🍴 Fork this repo!
+- Step 2 👯 Clone this repo to your local machine clicking [here](https://github.com/miadublin/1stmilestone.git)
