@@ -20,7 +20,7 @@ html, body {
 }
 
 .nav-link {
-  font-size: 1.1em !important;
+  font-size: 1.1em;
 }
 
 .navbar-logo {
@@ -105,17 +105,18 @@ h3 {
 /*-- I copied .videoWrapper snip from CSS-Tricks --*/
 
 .videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
 }
 
 .videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 100%;
   padding: 10px;
 }
