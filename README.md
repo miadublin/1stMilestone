@@ -5,7 +5,7 @@
 
 
 This website is good introduction to meditation, showing that Meditation is very simple and that anyone is able to start practicing it today.
-Incluedes video tutorials and step by step guidance.
+Includes video tutorials and step by step guidance.
 
 ## UX
  
@@ -13,11 +13,11 @@ Users of the website are people in need to unwind and looking for an easy way to
 
 ## User Stories
 
-As user I want to know tips of how to be more relaxed and enjoy the present moment.
-As a user I want to easily find what I’m looking for.
-As a user with no prior experience with meditation want to see some helpful guided videos about it.
-As a user I want to know how to contact the creator of the website.	
-As a user i want to know the benefits of Meditation and to get tips of how to start taking care of myself.
+- As user I want to know tips of how to be more relaxed and enjoy the present moment.
+- As a user I want to easily find what I’m looking for.
+- As a user with no prior experience with meditation want to see some helpful guided videos about it.
+- As a user I want to know how to contact the creator of the website.	
+- As a user i want to know the benefits of Meditation and to get tips of how to start taking care of myself.
 
 ## Wireframes
 
@@ -70,8 +70,8 @@ In addition, you may also use this section to discuss plans for additional featu
    
 ## Testing
 
-![Responsive](https://user-images.githubusercontent.com/54308513/67994382-e4e59800-fc3c-11e9-8607-6cc2485caf01.png)
 I used [Am I Responsive](http://ami.responsivedesign.is/) to check the responsiveness of the design across different browsers and devices.
+![Responsive](https://user-images.githubusercontent.com/54308513/67994382-e4e59800-fc3c-11e9-8607-6cc2485caf01.png)
 
 [HTML Validator](https://validator.w3.org/) found this error, it looks better with the frameborder "0" so i left it in.
 ![iframe](https://user-images.githubusercontent.com/54308513/67995588-18c3bc00-fc43-11e9-8772-cb9a8ba7a842.png)
